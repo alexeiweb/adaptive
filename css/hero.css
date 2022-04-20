@@ -1,0 +1,22 @@
+.hero {
+  padding-top: 40px;
+  background:
+    linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)),
+    url('../img/bg_main.jpg') no-repeat center;
+    color: #fff;
+}
+
+.hero__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__navigation_phone {
+  font-size: 24px;
+}

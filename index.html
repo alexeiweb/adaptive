@@ -5,6 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Адаптивная вёрстка</title>
+
+  <link rel="preload" href="fonts/roboto-v29-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/roboto-v29-latin_cyrillic-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/roboto-v29-latin_cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/roboto-v29-latin_cyrillic-900.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <main class="main">
@@ -80,15 +87,15 @@
 
         <form class="faq__form">
           <label class="faq__item">
-            <input type="text" name="name" class="faq__item_name">
+            <input type="text" name="name" class="faq__item_name" placeholder="Ваше имя">
           </label>
 
           <label class="faq__item">
-            <input type="tel" name="phone" class="faq__item_phone">
+            <input type="tel" name="phone" class="faq__item_phone" placeholder="Телефон">
           </label>
 
           <label class="faq__item">
-            <input type="email" name="email" class="faq__item_email">
+            <input type="email" name="email" class="faq__item_email" placeholder="E-mail">
           </label>          
         </form>
 
