@@ -46,7 +46,7 @@ html {
 }
 
 body {
-  width: 1600px;
+  max-width: 1600px;
   min-width: 320px;
   min-height: 100vh;
   font-family: Roboto, sans-serif;

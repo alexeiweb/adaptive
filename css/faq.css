@@ -54,3 +54,45 @@
   margin: 0 auto;
   margin-bottom: 61px;
 }
+
+
+@media (max-width: 1024px) {
+  
+  .faq {
+    padding-top: 70px;
+    padding-bottom: 56px;
+  }
+  
+  .faq__title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 16px;
+  }
+  
+  .faq__subtitle {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 50px;
+  }
+  
+  .faq__form {
+    row-gap: 20px;
+  }
+  
+  .faq__input {  
+    width: 377px;
+    padding: 8px 23px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  
+  .faq__btn {
+    padding: 11px 38px;
+    margin-bottom: 30px;
+  }
+
+  .faq__personal {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
