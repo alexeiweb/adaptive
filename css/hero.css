@@ -1,5 +1,6 @@
 .hero {
   padding-top: 40px;
+  padding-bottom: 120px;
   background:
     linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)),
     url('../img/bg_main.jpg') no-repeat center;
@@ -10,13 +11,52 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 120px;
 }
 
 .contacts {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
 }
 
 .hero__navigation_phone {
   font-size: 24px;
+  margin-bottom: 7px;
+}
+
+.hero__navigation_text {
+  width: 132px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 52px;
+  max-width: 990px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.hero__subtitle {
+  max-width: 960px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0.75;
+  margin-bottom: 90px;
+}
+
+.hero__btn {
+  display: block;
+  padding: 12px 48px;
+  background: #15A9CB;
+  box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  margin: 0 auto;
 }
