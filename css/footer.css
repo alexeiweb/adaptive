@@ -6,4 +6,27 @@
 
 .footer__navigation {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__navigation_copyright {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.footer__copyright {
+  width: 127px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #fff;
+}
+
+.footer__author {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #fff;
 }

@@ -14,22 +14,6 @@
   margin-bottom: 120px;
 }
 
-.contacts {
-  display: flex;
-  flex-direction: column;  
-}
-
-.hero__navigation_phone {
-  font-size: 24px;
-  margin-bottom: 7px;
-}
-
-.hero__navigation_text {
-  width: 132px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-  margin: 0 auto;
-}
-
 .hero__title {
   font-weight: 900;
   font-size: 52px;
@@ -59,4 +43,22 @@
   border-radius: 50px;
   color: #fff;
   margin: 0 auto;
+}
+
+.navigation__contact {
+  display: flex;
+  flex-direction: column; 
+}
+
+.navigation__phone {
+  font-size: 24px;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+.navigation__text {
+  width: 132px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  color: #fff;
 }
