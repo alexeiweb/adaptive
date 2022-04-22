@@ -17,14 +17,18 @@
   <main class="main">
     <section class="hero">
       <div class="container">
-        <nav class="hero__navigation">
-          <img src="img/logo.png" alt="" class="logo hero__navigation_logo">
+        <nav class="hero__navigation navigation">
+          <img src="img/logo.png" alt="" class="logo">
     
           <div class="navigation__contact">
             <a class="navigation__phone" href="tel:+79625561234" >+7 (962) 556 - 1234</a>
   
             <p class="navigation__text">Перезвоните мне</p>
-          </div>         
+          </div>
+          
+          <div class="navigation__contact_small">
+            <img src="img/phone.png" alt="" class="navigation__contact_phone">
+          </div>
         </nav>
 
         <h1 class="hero__title">Заголовок c уникальным торговым предложением по системе 4U</h1>
@@ -104,7 +108,7 @@
         </label>
 
         <p class="faq__personal">
-          Я даю своё <a class="faq__approval">согласие</a> на обработку моих персональных данных.
+          Я даю своё <a href="#" class="faq__approval">согласие</a> на обработку моих персональных данных.
         </p>
       </div>
     </section>
@@ -112,9 +116,9 @@
 
   <footer class="footer">
     <div class="container">
-      <nav class="footer__navigation">
+      <nav class="footer__navigation navigation">
         <div class="footer__navigation_copyright">
-          <img src="img/logo.png" alt="" class="logo footer__navigation_logo">
+          <img src="img/logo.png" alt="" class="logo">
 
           <p class="footer__copyright">
             © 2022 XXXcompany. Все права защищены.
@@ -129,11 +133,19 @@
           <a class="navigation__phone" href="tel:+79625561234" >+7 (962) 556 - 1234</a>
 
           <p class="navigation__text">Перезвоните мне</p>
-        </div> 
-      </nav>
-
-      
+        </div>
+        
+        <div class="navigation__contact_small">
+          <img src="img/phone.png" alt="" class="navigation__contact_phone">
+        </div>       
+      </nav>      
     </div>
   </footer>
+
+  <div class="footer__additional">
+    <p class="footer__additional_author">
+      Сделано Ивановым Иваном
+    </p>
+  </div>
 </body>
 </html>

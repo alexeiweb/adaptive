@@ -31,6 +31,10 @@
   color: #fff;
 }
 
+.footer__additional {
+  display: none;
+}
+
 
 @media (max-width: 1024px) {
 
@@ -38,4 +42,37 @@
     padding-top: 49px;
     padding-bottom: 49px;
   }  
+}
+
+@media (max-width: 768px) {
+  .footer__additional {
+    display: block;
+    background-color: #2A2C3F;
+    text-align: center;
+    padding: 18px 80px;     
+  }
+  
+  .footer__author {
+    display: none;
+  }
+
+  .footer__additional_author {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #fff;
+    filter: opacity(0.5);
+  }
+}
+
+@media (max-width: 480px) {
+    .footer__copyright {
+      width: 88px;
+      font-size: 8px;
+      line-height: 11px;
+    }
+
+    .navigation__contact_phone {
+      display: block;
+    }
 }

@@ -23,6 +23,10 @@
   flex-direction: column; 
 }
 
+.navigation__contact_small {
+  display: none;
+}
+
 .navigation__phone {
   font-size: 24px;
   margin-bottom: 7px;
@@ -101,4 +105,50 @@
   .hero__btn {
     padding: 11px 49px;
   }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .hero {
+    padding-top: 15px;
+    padding-bottom: 65px;    
+  }
+
+  .hero__navigation {
+    margin-bottom: 65px;
+  }
+
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navigation__contact {
+    display: none;
+  }
+
+  .navigation__contact_small {
+    display: block;
+  }
+
+  .hero__title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 23px;
+  }
+
+  .hero__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 54px;
+  }
+
+  .hero__btn {
+    font-size: 16px;
+    padding: 9px 29px;
+  }
+
 }
