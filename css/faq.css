@@ -1,6 +1,6 @@
 .faq {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 73px;
+  padding-bottom: 65px;
   text-align: center;
   background:
     linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)),
@@ -12,7 +12,7 @@
   font-weight: 700;
   font-size: 35px;
   line-height: 41px;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
 }
 
 .faq__subtitle {
@@ -27,16 +27,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  row-gap: 21px;
-  margin-bottom: 50px;
+  row-gap: 19px;
+  margin-bottom: 49px;
 }
 
 .faq__input {  
-  width: 423px;
-  padding: 9px 25px;
+  width: 426px;
+  padding: 9px 24px;
   font-weight: 400;
   font-size: 22px;
-  line-height: 26px;
+  line-height: 25px;
   background: none;
   border: none;
   border: 1.4px solid #fff;
@@ -45,14 +45,21 @@
 
 .faq__btn {
   display: block;
-  padding: 11px 38px;
+  padding: 12px 38px;
+  font-size: 20px;
+line-height: 23px;
   background: #15A9CB;
   box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
   border: none;
   border-radius: 50px;
   color: #fff;
   margin: 0 auto;
-  margin-bottom: 61px;
+  margin-bottom: 52px;
+}
+
+.faq__personal {
+  font-size: 20px;
+  line-height: 23px; 
 }
 
 .faq__approval {
@@ -64,7 +71,7 @@
 @media (max-width: 1024px) {
   
   .faq {
-    padding-top: 70px;
+    padding-top: 73px;
     padding-bottom: 56px;
   }
   
@@ -77,22 +84,22 @@
   .faq__subtitle {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
   }
   
   .faq__form {
-    row-gap: 20px;
+    row-gap: 17px;
   }
   
   .faq__input {  
-    width: 377px;
+    width: 380px;
     padding: 8px 23px;
     font-size: 20px;
     line-height: 23px;
   }
   
   .faq__btn {
-    padding: 11px 38px;
+    padding: 12px 39px;
     margin-bottom: 30px;
   }
 
@@ -103,7 +110,7 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 480px) {
   .faq {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -112,17 +119,18 @@
   .faq__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
   }
   
   .faq__subtitle {
     font-size: 12px;
     line-height: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 36px;
   }
   
   .faq__form {
-    margin-bottom: 45px;
+    gap: 13px;
+    margin-bottom: 44px;
   }
   
   .faq__input {  
@@ -134,7 +142,7 @@
   }
   
   .faq__btn {
-    padding: 10px 26px;
+    padding: 7px 18px;
     margin-bottom: 30px;
   }
   

@@ -29,7 +29,8 @@
 
 .navigation__phone {
   font-size: 24px;
-  margin-bottom: 7px;
+  margin-bottom: 4px;
+  line-height: 34px;
   color: #fff;
 }
 
@@ -43,10 +44,11 @@
 .hero__title {
   font-weight: 900;
   font-size: 52px;
+  line-height: 61px;
   max-width: 990px;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
 
 .hero__subtitle {
@@ -57,12 +59,13 @@
   text-align: center;
   margin: 0 auto;
   opacity: 0.75;
-  margin-bottom: 90px;
+  margin-bottom: 89px;
 }
 
 .hero__btn {
   display: block;
-  padding: 12px 48px;
+  padding: 13px 49px;
+  font-size: 20px;
   background: #15A9CB;
   box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
   border: none;
@@ -71,6 +74,7 @@
   margin: 0 auto;
 }
 
+
 @media (max-width: 1024px) {
   .hero {
     padding-top: 26px;
@@ -78,12 +82,18 @@
   }
 
   .hero__navigation {
-    margin-bottom: 70px;
+    margin-bottom: 71px;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
   }
 
   .navigation__phone {
     font-size: 21px;
-    margin-bottom: 4px;
+    line-height: 25px;
+    margin-bottom: 7px;
   }
   
   .navigation__text {
@@ -93,19 +103,22 @@
   
   .hero__title {
     font-size: 40px;
+    line-height: 47px;
     margin-bottom: 28px;
   }
   
   .hero__subtitle {
     max-width: 754px;
     font-size: 18px;
-    margin-bottom: 60px;
+    line-height: 25px;
+    margin-bottom: 57px;
   }
   
   .hero__btn {
     padding: 11px 49px;
   }
 }
+
 
 @media (max-width: 480px) {
   .container {
@@ -118,7 +131,7 @@
   }
 
   .hero__navigation {
-    margin-bottom: 65px;
+    margin-bottom: 66px;
   }
 
   .logo {
@@ -137,18 +150,19 @@
   .hero__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 23px;
+    margin-bottom: 26px;
   }
 
   .hero__subtitle {
+    height: 77px;
     font-size: 14px;
     line-height: 20px;
-    margin-bottom: 54px;
+    margin-bottom: 55px;
+    overflow: hidden;
   }
 
   .hero__btn {
     font-size: 16px;
-    padding: 9px 29px;
+    padding: 10px 39px;
   }
-
 }
